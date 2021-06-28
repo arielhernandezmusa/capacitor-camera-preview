@@ -1,3 +1,5 @@
+# Beta version with initial support for capacitor 3
+
 # Capacitor Camera Preview
 
 Capacitor plugin that allows camera interaction from Javascript and HTML (based on cordova-plugin-camera-preview)
@@ -50,6 +52,13 @@ Then run
 ```
 npx cap sync
 ```
+
+#### iOS Quirks
+      <key>NSCameraUsageDescription</key>
+      <string>To capture Photos, scan Cards, QR and Barcodes</string>
+
+      <key>NSMicrophoneUsageDescription</key>
+      <string>To capture video</string>
 
 #### Android Quirks
 
